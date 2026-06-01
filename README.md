@@ -33,12 +33,19 @@ pip install opencv-python numpy mediapipe pyttsx3
 
 📂 Project Structure
 ├── canvas.py             # Helper script to initialize and manage the drawing canvas
+
 ├── config.py             # Global configurations (brush size, colors, screen dimensions)
+
 ├── draw_utils.py         # Utility functions for custom drawing operations/overlays
+
 ├── gesture_control.py    # Logic for recognizing specific hand gestures (e.g., erase, lift pen)
+
 ├── hand_tracking.py      # MediaPipe wrapper for detecting and extracting hand landmarks
+
 ├── main.py               # Application entry point containing the core execution loop
+
 ├── requirements.txt      # List of external Python dependencies for easy installation
+
 └── voice_command.py      # Audio feedback and pyttsx3 text-to-speech engine controls
 
 
